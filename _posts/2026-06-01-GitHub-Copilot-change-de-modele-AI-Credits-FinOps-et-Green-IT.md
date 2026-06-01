@@ -9,7 +9,7 @@ tags: [GitHub Copilot, AI Credits, FinOps, Green IT, LLM, sobriété numérique,
 
 # **GitHub Copilot passe aux AI Credits : quand l'ingénierie logicielle rejoint le FinOps et le Green IT**
 
-💡 GitHub Copilot change de modèle économique. Et c'est probablement une excellente nouvelle pour les ingénieurs.
+GitHub Copilot change de modèle économique. Et c'est probablement une excellente nouvelle pour les ingénieurs.
 
 À partir du 1er juin 2026, GitHub abandonne les *Premium Requests* au profit d'un système basé sur les **AI Credits**. Le changement paraît anodin sur la facture. Il l'est beaucoup moins dans ce qu'il révèle.
 
