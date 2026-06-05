@@ -42,7 +42,7 @@ Ce qui rend le moment présent intéressant, c'est que des critiques venues d'ho
 
 Et à ces trois critiques, on peut ajouter un cas révélateur du côté académique : l'affaire autour d'Achille Baucher et de l'interdiction par l'UGA d'une soutenance de thèse, rapportée par AEF. Elle montre que la question de ce qu'une institution s'autorise, ou s'interdit, n'est pas qu'industrielle : elle traverse aussi le monde du savoir et de la recherche.
 
-## L'IA n'est pas immatérielle : elle est minière
+## L'IA n'est pas immatérielle : elle est très consommatrice en ressources.
 
 Le mot « intelligence artificielle » évoque une faculté abstraite, presque éthérée. La réalité est faite de mines, d'usines, d'eau et de fumées. L'IA, ce n'est rien d'autre que la plus grande puissance de calcul jamais atteinte appliquée au plus grand volume de données jamais collectées, et cela a un coût matériel colossal.
 
