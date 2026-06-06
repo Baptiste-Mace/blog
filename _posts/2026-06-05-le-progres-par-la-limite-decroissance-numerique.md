@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Le progrès par la limite : pourquoi la décroissance numérique est l'héritière des grands combats sociaux"
+title: "Le progrès par la limite : ce que l'excès nous coûte, et pourquoi la décroissance numérique est l'héritière des grands combats sociaux"
 date: 2026-06-05
 author: Baptiste Macé
 categories: [IA, société, Green IT]
 tags: [IA, décroissance, sobriété numérique, data centers, ACV, éthique, ingénierie, régulation]
 ---
 
-# **Le progrès par la limite : pourquoi la décroissance numérique est l'héritière des grands combats sociaux**
+# **Le progrès par la limite : ce que l'excès nous coûte, et pourquoi la décroissance numérique est l'héritière des grands combats sociaux**
 
 ## Une croyance à déconstruire : le progrès comme pure addition
 
@@ -28,7 +28,15 @@ Pourtant, l'histoire raconte presque l'inverse. Certains des plus grands progrè
 
 À chaque fois, le même refrain accompagnait ces décisions : cela allait *freiner l'innovation*, *détruire des emplois*, *provoquer une catastrophe économique*. Et à chaque fois, la société a progressé. Le progrès ne fut pas dans l'ajout d'un nouveau droit technologique, mais dans la mise en place d'une **limite collective** à ce qui était devenu nuisible.
 
-C'est précisément cette grille de lecture qu'il faut appliquer à l'intelligence artificielle.
+## Quand on refuse la limite, l'excès s'en charge
+
+Car l'autre face de cette histoire est plus sombre. Lorsqu'on refuse de poser ces limites volontairement, c'est l'excès qui finit par s'en charger, brutalement. Le trou dans la couche d'ozone, à force de relâcher des CFC sans frein. La crise des subprimes, à force de financiariser sans garde-fou. L'air irrespirable de Pékin, à force de croissance industrielle sans régulation. Les milliers d'ouvriers morts sur les chantiers de la Coupe du monde au Qatar, à force de construire toujours plus vite et plus grand au mépris des vies humaines. À chaque fois, la même leçon : ce qu'on refuse de borner soi-même, la réalité nous le fait payer de force, et souvent au prix le plus fort.
+
+## La limite comme art de vivre : la leçon de l'ère Edo
+
+À l'inverse, certaines sociétés ont su faire de la contrainte un art de vivre. Le Japon de l'ère Edo, replié sur lui-même et coupé du commerce extérieur pendant plus de deux siècles, a appris à prospérer dans la limite : recycler, réparer, réemployer, se contenter de ce que l'on possède, et y trouver une forme de raffinement plutôt qu'un manque. Loin d'être un appauvrissement, cette économie quasi circulaire a nourri une culture, un artisanat et une esthétique d'une richesse remarquable. Vivre mieux avec moins n'est pas une privation : c'est une compétence, et peut-être même une civilisation.
+
+C'est précisément cette double grille de lecture, l'excès qui se paie et la limite qui élève, qu'il faut appliquer à l'intelligence artificielle.
 
 ## Trois critiques qui convergent
 
