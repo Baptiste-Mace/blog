@@ -2,14 +2,34 @@
 layout: page
 title: À propos
 permalink: /about/
+description: "Baptiste Macé — Ingénieur logiciel à Paris, conférencier, Green IT, Agilité, DDD."
 ---
 
-Bienvenue sur mon blog personnel !
+# Baptiste Macé — Ingénieur logiciel à Paris
 
-## Qui suis-je ?
+Ingénieur logiciel animé par l'ambition d'apporter un regard neuf à chaque mission, mon expertise réside dans l'identification des *pain points* et la mise en œuvre de solutions pérennes et adaptées.
 
-Je partage ici mes réflexions et articles sur différents sujets.
+Axé sur le client, je crois fermement que le logiciel doit être un outil au service des utilisateurs, tout en respectant les enjeux sociaux et environnementaux.
 
-## Contact
+**Mes domaines de prédilection :**
+- Agilité à l'échelle et pratiques d'équipe
+- Green IT & éco-conception logicielle
+- Domain-Driven Design (DDD)
+- Intelligence artificielle responsable & MCP
+- Architecture cloud-native, DevOps, IaC
 
-N'hésitez pas à me contacter via GitHub.
+🌍 Écologiste convaincu, j'intègre les pratiques de Green IT comme un levier stratégique et éthique dans chaque projet.
+
+---
+
+## Me retrouver
+
+- 💼 [LinkedIn — Baptiste Macé](https://www.linkedin.com/in/baptiste-mac%C3%A9-1301761b/)
+- 🐙 [GitHub — BaptisteCDC](https://github.com/BaptisteCDC)
+- 🎤 [Sessionize — Profil conférencier](https://sessionize.com/baptiste-mace)
+
+---
+
+## Conférences
+
+Je parle régulièrement dans des conférences tech et agiles. Retrouvez toutes mes interventions sur la [page dédiée](/conferences/).

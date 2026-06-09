@@ -1,8 +1,15 @@
 # Site settings
-title: Blog
-description: Ensemble des articles
+title: Baptiste Macé
+description: >-
+  Blog de Baptiste Macé, ingénieur logiciel à Paris. Articles sur l'agilité,
+  le Green IT, le DDD, l'IA responsable et le développement logiciel.
+author: Baptiste Macé
+email: ""
 url: "https://baptistecdc.github.io"
 baseurl: "/blog"
+
+linkedin_url: "https://www.linkedin.com/in/baptiste-mac%C3%A9-1301761b/"
+github_username: BaptisteCDC
 
 # Build settings
 markdown: kramdown
@@ -25,7 +32,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "BaptisteCDC"
+      author: "Baptiste Macé"
 
 # Pagination
 paginate: 10

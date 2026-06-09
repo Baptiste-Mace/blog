@@ -4,9 +4,29 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="{{ site.author | default: 'Baptiste Macé' }}">
     {%- seo -%}
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     {%- feed_meta -%}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Baptiste Macé",
+      "url": "{{ site.url }}{{ site.baseurl }}",
+      "sameAs": [
+        "https://www.linkedin.com/in/baptiste-mac%C3%A9-1301761b/",
+        "https://github.com/BaptisteCDC",
+        "https://sessionize.com/baptiste-mace"
+      ],
+      "jobTitle": "Ingénieur logiciel",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Paris",
+        "addressCountry": "FR"
+      }
+    }
+    </script>
   </head>
   <body>
     {%- include header.html -%}
