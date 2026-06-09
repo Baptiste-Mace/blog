@@ -13,7 +13,7 @@ tags: [consommation, écologie, sobriété, avidité, commerce, contentement]
 
 ## Le vertige du clic
 
-Il n'y a jamais eu, dans toute l'histoire humaine, un accès aussi immédiat et illimité à autant de choses. D'un geste du pouce, depuis un canapé, à trois heures du matin, on peut commander un gadget fabriqué à l'autre bout du monde, livré en quarante-huit heures, sans jamais avoir à croiser un regard, à porter un sac, à peser le pour et le contre dans la vraie lumière du jour.
+Il n'y a jamais eu, dans toute l'histoire humaine, un accès aussi immédiat et illimité à autant de choses. D'un geste du pouce, depuis un canapé, à trois heures du matin, on peut commander un gadget fabriqué à l'autre bout du monde, livré en quarante-huit heures, sans jamais avoir à croiser un regard, à porter un sac, à peser le pour et le contre à la lumière du jour.
 
 Cette facilité a une odeur : elle sent la **gourmandise**. Non pas celle des plaisirs de la table, mais cette autre faim, plus sourde et plus insatiable, que sont l'avidité et la cupidité. Vouloir plus. Toujours plus. Et maintenant.
 
@@ -72,7 +72,7 @@ Cinq fois sans vous être connecté à la plateforme qui l'a mis sous vos yeux. 
 
 Ce filtre à lui seul élimine la majeure partie du gaspillage.
 
-Pour les vêtements en particulier : combien de fois allez-vous **réellement** le porter ? Pas combien de fois vous vous imaginez le porter, réellement, dans votre vie telle qu'elle est. Un vêtement porté vingt fois a une empreinte carbone infime par usage. Un vêtement porté deux fois est un désastre.
+Pour les vêtements en particulier : combien de fois allez-vous **réellement** le porter ? Pas combien de fois vous vous imaginez le porter, réellement, dans votre vie telle qu'elle est. Un vêtement porté 100 fois a une empreinte carbone infime par usage. Un vêtement porté deux fois est un désastre.
 
 ## Le contentement, vertu oubliée
 
