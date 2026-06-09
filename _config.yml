@@ -43,3 +43,8 @@ permalink: /:year/:month/:day/:title/
 
 # SEO
 lang: fr
+
+# Analytics — GoatCounter (https://www.goatcounter.com)
+# Créer un compte sur goatcounter.com, choisir un code (ex: baptiste-mace)
+# puis remplacer la valeur ci-dessous par votre code
+goatcounter_code: "baptiste-mace"
