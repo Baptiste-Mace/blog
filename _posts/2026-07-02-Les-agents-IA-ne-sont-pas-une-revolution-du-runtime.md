@@ -96,6 +96,31 @@ D'où ma synthèse :
 
 C'est probablement pour ça que beaucoup d'ingénieurs restent sceptiques face au terme « agent » : techniquement, ce n'est pas un nouveau paradigme d'exécution, mais une nouvelle façon de décider des transitions dans un moteur d'orchestration.
 
+Et ce n'est pas une mode d'implémentation qui changera demain. C'est une contrainte de **substrat** : un LLM est un générateur de texte. Il ne peut ni exécuter, ni appeler, ni décider *par lui-même* — il ne peut que produire une sortie qu'un système déterministe transformera en action. Tant que le substrat reste la génération de tokens, le modèle sera toujours un **nœud** dans une orchestration, jamais l'orchestrateur.
+
+## **Et la « version forte » de l'agent ?**
+
+L'objection sérieuse n'est pas « l'agent réfléchit ». C'est celle-ci : un vrai agent **planifie**, **s'auto-évalue** et **découvre des outils** non prévus. Là, on tiendrait un primitif d'exécution nouveau.
+
+Regardons les trois, une par une.
+
+**La planification autonome n'est pas une exécution. C'est du texte.**
+Un LLM ne possède qu'une seule primitive : produire le token suivant. Quand un agent « planifie », il génère un texte qui *ressemble* à un plan, puis on le réinjecte. Ce plan n'a **aucun pouvoir causal** tant qu'un orchestrateur — déterministe, codé par un humain — ne le parse pas et n'appelle pas un outil. La planification ne vit donc pas dans le modèle. Elle vit dans la boucle qui interprète le texte généré. Le modèle produit du texte ; le workflow, lui, agit.
+
+**La « découverte d'outils » est un mythe opérationnel.**
+En production, on fait exactement l'inverse. On **réduit** le nombre d'outils exposés — pour alléger le contexte, baisser le coût et fiabiliser le routage. Le développeur sélectionne en amont un sous-ensemble d'outils « probablement utiles ». L'agent ne découvre rien : il **choisit dans un catalogue fermé**, défini par l'humain. L'espace d'action reste borné par le dev — précisément comme les transitions d'un workflow. La seule différence, c'est *qui* fait la sélection finale dans cet ensemble.
+
+**L'auto-réflexion est un retry conditionnel déguisé.**
+Reflection, critique, replanning : encore de la génération de texte, évaluée par un critère ou par un second appel au modèle, le tout piloté par une boucle écrite à la main. « Tant que la critique n'est pas satisfaite, regénérer » — on a déjà vu ce motif plus haut. Ce n'est pas un nouveau paradigme d'exécution. C'est une boucle d'amélioration dont le critère d'arrêt est flou.
+
+Autrement dit, même dans sa version forte, l'agent ne sort pas du cadre. Ses trois « super-pouvoirs » se ramènent à :
+
+1. générer du texte ;
+2. choisir dans un ensemble d'outils **fermé et fourni par le développeur** ;
+3. reboucler.
+
+Trois primitives que le workflow possède déjà. La seule nouveauté, c'est que le **texte généré sert d'entrée de contrôle**.
+
 ## **La frontière est un continuum**
 
 Soyons honnêtes : il n'y a pas de ligne nette. La plupart des systèmes qualifiés d'« agents » aujourd'hui sont des workflows avec des boucles, des outils et un LLM qui prend certaines décisions. La différence est souvent une question de **degré d'autonomie**, pas de nature.
