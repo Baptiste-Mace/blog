@@ -79,25 +79,29 @@ presse-papier. L'agent choisit lui-même l'outil, avant chaque tâche et entre c
 L'important n'est pas la liste des outils, c'est que tout soit interchangeable :
 le fournisseur, le modèle, les outils. On garde la main, on peut revenir en arrière.
 
-## **Les suites que j'envisage**
+## **Deux prolongements, dans le même esprit**
 
-Deux pistes me semblent naturelles pour la suite, et elles restent dans le même esprit :
-ajouter le minimum pour comprendre, pas pour impressionner.
+J'ai ajouté deux capacités depuis, en gardant la règle : le minimum pour comprendre, pas
+pour impressionner.
 
-La première : permettre à une tâche d'appeler un sous-agent. Aujourd'hui l'agent
-déroule un plan à plat. Or certaines étapes sont elles-mêmes des objectifs à part
-entière, qui mériteraient leur propre boucle *planifier, exécuter, enrichir*, avec leur
-propre budget de jetons. Rien de magique : c'est la même boucle, appelée depuis
-l'intérieur d'une étape, avec un contexte réduit à ce dont l'enfant a besoin. L'intérêt
-n'est pas de créer une armée d'agents, c'est de découper encore, et de garder chaque
-budget lisible.
+La première : une étape peut appeler un sous-agent. Avant chaque étape, l'agent se
+demande si elle est vraiment atomique ou si elle cache un objectif à part entière. Dans
+le second cas, il relance *la même boucle* sur cette étape, avec son propre budget de
+jetons et une profondeur bornée pour éviter la récursion sans fin. Le sous-agent rend un
+résultat unique au parent, et les fichiers qu'il produit remontent dans le contexte
+commun. Rien de spectaculaire : c'est la boucle appelée depuis l'intérieur d'une étape.
+L'intérêt n'est pas de créer une armée d'agents, c'est de découper encore, en gardant
+chaque budget lisible.
 
-La seconde : enrichir le *méta-prompt* au moment de l'appel. Pour l'instant chaque
-prompt vit dans son fichier, figé. Mais le bon prompt dépend du contexte du moment :
-les résultats déjà obtenus, l'outil retenu, les contraintes découvertes en chemin. Je
-voudrais composer le prompt juste avant l'appel, en injectant ce qui est pertinent à cet
-instant. Toujours la même idée : le travail se fait dans le contexte, alors autant le
-soigner jusque dans l'instruction qu'on donne au modèle.
+La seconde : le *méta-prompt* se compose au moment de l'appel. Chaque prompt vit toujours
+dans son fichier, mais avant une exécution l'agent peut y ajouter une spécialisation
+ciblée pour l'étape du moment : un rôle, des points de vigilance, un format attendu. Si
+rien n'est utile, on garde le prompt de base. Toujours la même idée : le travail se fait
+dans le contexte, alors autant le soigner jusque dans l'instruction qu'on donne au
+modèle.
+
+Ces deux ajouts ne changent pas la nature de l'agent. Ils la confirment : tout reste une
+question de découpage et de contexte.
 
 ## **Pourquoi se donner cette peine**
 
