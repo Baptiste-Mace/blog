@@ -21,9 +21,13 @@ Cet engagement discret a du sens. Il change des choses, lentement, à l'échelle
 
 Un jour, on m'a parlé de *personal branding*. On m'a demandé : « Qu'est-ce que tu veux raconter ? »
 
-La réponse était simple, et elle me suivait depuis l'adolescence. Je veux parler de politique, au sens noble : des inégalités, des rapports de domination, des dysfonctionnements de nos systèmes. Et aussi de mon amour pour la science et l'innovation, qui, **lorsqu'elles sont encadrées et orientées vers le bien commun**, peuvent être de puissants outils d'émancipation pour chacune et chacun.
+La réponse était simple, et elle me suivait depuis l'adolescence. Je veux parler de politique, au sens noble.
 
-Ces deux passions ne s'opposent pas. Elles se répondent. La technique sans boussole politique devient une fuite en avant. La politique sans compréhension de la technique devient impuissante.
+D'un côté, les inégalités, les rapports de domination, les dysfonctionnements de nos systèmes : **autant de formes d'asservissement.**
+
+De l'autre, mon amour de la science et de l'innovation qui, **bien encadrées et orientées vers le bien commun**, permettent à chacune et chacun de s'émanciper.
+
+Ces deux sujets ne s'opposent pas. Ils se répondent : l'un nomme ce qui enferme, l'autre ce qui peut libérer. La technique sans boussole politique devient une fuite en avant. La politique sans compréhension de la technique devient impuissante.
 
 ## Le prix de la parole
 
