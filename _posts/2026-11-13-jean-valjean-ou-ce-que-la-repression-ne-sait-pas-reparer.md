@@ -63,7 +63,7 @@ Quelques pistes, pour commencer :
 
 L'évêque a pris un risque. Il aurait pu se tromper. Javert, lui, ne prenait aucun risque, et il se trompait quand même.
 
-**Deux chandeliers ont suffi à sauver Valjean. Quand penserons-nous enfin à la réinsertion, et surtout à éviter la désocialisation ?**
+**Deux chandeliers ont suffi à sauver Valjean. Quand penserons-nous enfin à la réinsertion, et surtout à éviter l'exclusion ?**
 
 *La semaine prochaine : les Thénardier, ou l'art de gagner sur tous les fronts.*
 
