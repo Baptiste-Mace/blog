@@ -4,6 +4,9 @@ on:
   push:
     branches: ["main"]
   workflow_dispatch:
+  schedule:
+    # Reconstruction quotidienne pour publier les articles datés dans le futur
+    - cron: "0 6 * * *"
 
 permissions:
   contents: read
